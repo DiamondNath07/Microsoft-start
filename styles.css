@@ -226,6 +226,102 @@ body {
   display: none;
 }
 
+.grid-cards {
+  max-width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.grid-col-card {
+  grid-column: span 2;
+}
+.card1 {
+  background-image: url("./Images/Ronaldo\ -\ Copy.jpeg");
+  background-color: linear-gradient();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card1 p#ronaldo {
+  margin-top: 300px;
+}
+.card2 {
+  box-shadow: 0 0 10px #555;
+  background-image: url("./Images/putin\ -\ Copy.jpeg");
+  background-color: linear-gradient();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card2 p {
+  margin-top: 100px;
+}
+.card3 {
+  box-shadow: 0 0 10px #555;
+  background-image: url("./Images/Makoko\ -\ Copy.jpeg");
+  background-color: linear-gradient();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card3 p {
+  margin-top: 100px;
+}
+.card4 {
+  box-shadow: 0 0 10px #555;
+  background-image: url("./Images/iran\ -\ Copy.jpg");
+  background-color: linear-gradient();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card4 p {
+  margin-top: 300px;
+}
+.card5 {
+  box-shadow: 0 0 10px #555;
+  background-image: url("./Images/jada\ -\ Copy.jpeg");
+  background-color: linear-gradient();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card5 p {
+  margin-top: 100px;
+}
+.card6 {
+  box-shadow: 0 0 10px #555;
+  background-image: url("./Images/kara\ -\ Copy.jpg");
+  background-color: linear-gradient();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card6 p {
+  margin-top: 100px;
+}
+.card7 {
+  box-shadow: 0 0 10px #555;
+  background-image: url("./Images/Ibrahimovic\ -\ Copy.jpeg");
+  background-color: linear-gradient();
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card7 p {
+  margin-top: 100px;
+}
+
 @media screen and (min-width: 760px) {
   .nav-bar {
     height: 180px;
